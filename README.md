@@ -20,3 +20,21 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 
 
+# File infomation
+"README" describes this project.
+"run_analysisi.R" includes the script.
+"Output.txt" was created by the script.
+
+# Code book 
+variables are used in "run_analysisi.R"
+
+  ls : the file name in zip file.
+  df** : data set read from unzipe file
+  feature : the colnames in the data set.
+  sub :  mean subject in the data set.
+  merged :data set which marged test and train
+  column.names.filtered : Extracts only the measurement colnames on the mean and standard deviation for each measurement.
+  df.filtered: extracted data set by colum.names.filtered
+  df.filtered$activity :Uses descriptive activity names to name the activities in the data set
+  Output: independent tidy data set with the average of each variable for each activity and each subject.
+  
